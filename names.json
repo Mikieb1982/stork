@@ -1,0 +1,231 @@
+[
+  {
+    "id": "en1", "name": "William", "language": "english", "gender": "boy", "meaning": "Resolute protector; strong will.", "originNotes": "Germanic roots, English royalty", "pronunciation": "WIL-ee-uhm", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 10
+  },
+  {
+    "id": "en2", "name": "Olivia", "language": "english", "gender": "girl", "meaning": "Olive tree; symbol of peace.", "originNotes": "Latin origin, via Shakespeare", "pronunciation": "oh-LIV-ee-uh", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 20
+  },
+  {
+    "id": "en3", "name": "Arthur", "language": "english", "gender": "boy", "meaning": "Bear man, noble strength.", "originNotes": "Celtic/Roman roots, legendary king", "pronunciation": "AR-ther", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 5
+  },
+  {
+    "id": "en4", "name": "Isla", "language": "english", "gender": "girl", "meaning": "Island.", "originNotes": "Scottish river/island name", "pronunciation": "EYE-luh", "popularity": "Rising Trend", "lengthCategory": "short", "styleScore": 40
+  },
+  {
+    "id": "en5", "name": "Ezra", "language": "english", "gender": "boy", "meaning": "Help.", "originNotes": "Hebrew origin, biblical prophet", "pronunciation": "EZ-ruh", "popularity": "Rising Trend", "lengthCategory": "short", "styleScore": 60
+  },
+  {
+    "id": "en6", "name": "Luna", "language": "english", "gender": "girl", "meaning": "Moon.", "originNotes": "Latin origin, Roman goddess", "pronunciation": "LOO-nuh", "popularity": "Top 100", "lengthCategory": "short", "styleScore": 70
+  },
+  {
+    "id": "en7", "name": "Caspian", "language": "english", "gender": "boy", "meaning": "From Qazvin (geographical).", "originNotes": "Place name (Caspian Sea), literary", "pronunciation": "KAS-pee-uhn", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 85
+  },
+  {
+    "id": "en8", "name": "Seraphina", "language": "english", "gender": "girl", "meaning": "Fiery ones (angelic).", "originNotes": "Hebrew origin, elegant", "pronunciation": "seh-ruh-FEE-nuh", "popularity": "Unique Find", "lengthCategory": "long", "styleScore": 90
+  },
+  {
+    "id": "en9", "name": "Rowan", "language": "english", "gender": "any", "meaning": "Rowan tree, little redhead.", "originNotes": "Gaelic origin, nature name", "pronunciation": "ROH-uhn", "popularity": "Balanced", "lengthCategory": "short", "styleScore": 55
+  },
+  {
+    "id": "en10", "name": "Theodore", "language": "english", "gender": "boy", "meaning": "Gift of God.", "originNotes": "Greek origin", "pronunciation": "THEE-uh-dor", "popularity": "Top 100", "lengthCategory": "long", "styleScore": 22
+  },
+  {
+    "id": "en11", "name": "Genevieve", "language": "english", "gender": "girl", "meaning": "Family woman.", "originNotes": "Germanic/French origin, patron saint of Paris", "pronunciation": "JEN-uh-veev", "popularity": "Classic", "lengthCategory": "long", "styleScore": 18
+  },
+  {
+    "id": "en12", "name": "Phoenix", "language": "english", "gender": "any", "meaning": "Mythical bird, dark red.", "originNotes": "Greek origin, place name", "pronunciation": "FEE-niks", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 95
+  },
+  {
+    "id": "en13", "name": "Jasper", "language": "english", "gender": "boy", "meaning": "Bringer of treasure.", "originNotes": "Persian origin, gemstone name", "pronunciation": "JAS-per", "popularity": "Rising Trend", "lengthCategory": "medium", "styleScore": 65
+  },
+  {
+    "id": "en14", "name": "Willow", "language": "english", "gender": "girl", "meaning": "Willow tree.", "originNotes": "English nature name", "pronunciation": "WIL-oh", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 45
+  },
+  {
+    "id": "en15", "name": "Silas", "language": "english", "gender": "boy", "meaning": "Of the forest.", "originNotes": "Latin origin, biblical", "pronunciation": "SY-luhs", "popularity": "Balanced", "lengthCategory": "short", "styleScore": 50
+  },
+  {
+    "id": "en16", "name": "Aurora", "language": "english", "gender": "girl", "meaning": "Dawn.", "originNotes": "Latin origin, Roman goddess", "pronunciation": "uh-ROR-uh", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 35
+  },
+  {
+    "id": "en17", "name": "August", "language": "english", "gender": "boy", "meaning": "Great, magnificent.", "originNotes": "Latin origin, month name", "pronunciation": "AW-guhst", "popularity": "Rising Trend", "lengthCategory": "medium", "styleScore": 48
+  },
+  {
+    "id": "en18", "name": "Juniper", "language": "english", "gender": "any", "meaning": "Juniper berry.", "originNotes": "Latin origin, nature name", "pronunciation": "JOO-nih-per", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 88
+  },
+  {
+    "id": "en19", "name": "Eleanor", "language": "english", "gender": "girl", "meaning": "Bright, shining one.", "originNotes": "Greek origin, via French royalty", "pronunciation": "EL-uh-nor", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 12
+  },
+  {
+    "id": "en20", "name": "Finnian", "language": "english", "gender": "boy", "meaning": "Fair.", "originNotes": "Irish origin, saint's name", "pronunciation": "FIN-ee-uhn", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 72
+  },
+  {
+    "id": "en21", "name": "Penelope", "language": "english", "gender": "girl", "meaning": "Weaver.", "originNotes": "Greek mythology (Odysseus' wife)", "pronunciation": "puh-NEL-uh-pee", "popularity": "Top 100", "lengthCategory": "long", "styleScore": 32
+  },
+  {
+    "id": "en22", "name": "Asher", "language": "english", "gender": "boy", "meaning": "Happy, blessed.", "originNotes": "Hebrew origin, biblical", "pronunciation": "ASH-er", "popularity": "Top 100", "lengthCategory": "short", "styleScore": 25
+  },
+  {
+    "id": "en23", "name": "Violet", "language": "english", "gender": "girl", "meaning": "Purple/blue flower.", "originNotes": "Latin origin, nature name", "pronunciation": "VY-uh-let", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 19
+  },
+  {
+    "id": "en24", "name": "Rhys", "language": "english", "gender": "any", "meaning": "Ardor, enthusiasm.", "originNotes": "Welsh origin, strong unisex choice", "pronunciation": "REES", "popularity": "Balanced", "lengthCategory": "short", "styleScore": 58
+  },
+  {
+    "id": "en25", "name": "Sebastian", "language": "english", "gender": "boy", "meaning": "Venerable, revered.", "originNotes": "Greek origin, popular internationally", "pronunciation": "seh-BASS-chen", "popularity": "Top 100", "lengthCategory": "long", "styleScore": 28
+  },
+  {
+    "id": "en26", "name": "Freya", "language": "english", "gender": "girl", "meaning": "Lady, noblewoman.", "originNotes": "Norse mythology goddess", "pronunciation": "FRAY-uh", "popularity": "Rising Trend", "lengthCategory": "short", "styleScore": 46
+  },
+  {
+    "id": "en27", "name": "Kai", "language": "english", "gender": "any", "meaning": "Sea (Hawaiian), Willow Tree (Navajo), Keeper of Keys (Germanic).", "originNotes": "Multicultural origins", "pronunciation": "KYE", "popularity": "Rising Trend", "lengthCategory": "short", "styleScore": 68
+  },
+  {
+    "id": "en28", "name": "Caleb", "language": "english", "gender": "boy", "meaning": "Devotion to God, whole heart.", "originNotes": "Hebrew origin, biblical spy", "pronunciation": "KAY-leb", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 17
+  },
+  {
+    "id": "en29", "name": "Evangeline", "language": "english", "gender": "girl", "meaning": "Bringer of good news.", "originNotes": "Greek origin, literary (Longfellow)", "pronunciation": "ee-VAN-juh-leen", "popularity": "Unique Find", "lengthCategory": "long", "styleScore": 82
+  },
+  {
+    "id": "en30", "name": "Orion", "language": "english", "gender": "boy", "meaning": "Hunter (constellation).", "originNotes": "Greek mythology", "pronunciation": "oh-RYE-uhn", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 76
+  },
+  {
+    "id": "de1", "name": "Maximilian", "language": "german", "gender": "boy", "meaning": "Greatest.", "originNotes": "Latin origin, popular in Germany", "pronunciation": "mak-see-MEE-lee-ahn", "popularity": "Classic", "lengthCategory": "long", "styleScore": 25
+  },
+  {
+    "id": "de2", "name": "Sophie", "language": "german", "gender": "girl", "meaning": "Wisdom.", "originNotes": "Greek origin, international", "pronunciation": "ZO-fee", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 15
+  },
+  {
+    "id": "de3", "name": "Leon", "language": "german", "gender": "boy", "meaning": "Lion.", "originNotes": "Greek origin, short and strong", "pronunciation": "LE-on", "popularity": "Top 100", "lengthCategory": "short", "styleScore": 35
+  },
+  {
+    "id": "de4", "name": "Emilia", "language": "german", "gender": "girl", "meaning": "Rival.", "originNotes": "Latin origin, classic", "pronunciation": "eh-MEE-lee-ah", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 30
+  },
+  {
+    "id": "de5", "name": "Finn", "language": "german", "gender": "boy", "meaning": "Fair.", "originNotes": "Irish origin, popular in Germany", "pronunciation": "FIN", "popularity": "Top 100", "lengthCategory": "short", "styleScore": 40
+  },
+  {
+    "id": "de6", "name": "Lina", "language": "german", "gender": "girl", "meaning": "Tender.", "originNotes": "Short form, various origins", "pronunciation": "LEE-nah", "popularity": "Top 100", "lengthCategory": "short", "styleScore": 28
+  },
+  {
+    "id": "de7", "name": "Paul", "language": "german", "gender": "boy", "meaning": "Small, humble.", "originNotes": "Latin origin, biblical", "pronunciation": "POWL", "popularity": "Classic", "lengthCategory": "short", "styleScore": 12
+  },
+  {
+    "id": "de8", "name": "Hannah", "language": "german", "gender": "girl", "meaning": "Grace, favor.", "originNotes": "Hebrew origin, biblical", "pronunciation": "HAH-nah", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 10
+  },
+  {
+    "id": "de9", "name": "Felix", "language": "german", "gender": "boy", "meaning": "Lucky, successful.", "originNotes": "Latin origin", "pronunciation": "FE-liks", "popularity": "Balanced", "lengthCategory": "short", "styleScore": 45
+  },
+  {
+    "id": "de10", "name": "Clara", "language": "german", "gender": "girl", "meaning": "Clear, bright.", "originNotes": "Latin origin", "pronunciation": "KLAH-rah", "popularity": "Classic", "lengthCategory": "short", "styleScore": 24
+  },
+  {
+    "id": "de11", "name": "Anton", "language": "german", "gender": "boy", "meaning": "Priceless one.", "originNotes": "Latin origin", "pronunciation": "AN-ton", "popularity": "Balanced", "lengthCategory": "short", "styleScore": 33
+  },
+  {
+    "id": "de12", "name": "Ida", "language": "german", "gender": "girl", "meaning": "Industrious one.", "originNotes": "Germanic origin", "pronunciation": "EE-dah", "popularity": "Rising Trend", "lengthCategory": "short", "styleScore": 37
+  },
+  {
+    "id": "de13", "name": "Konrad", "language": "german", "gender": "boy", "meaning": "Brave counsel.", "originNotes": "Germanic origin", "pronunciation": "KON-raht", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 19
+  },
+  {
+    "id": "de14", "name": "Greta", "language": "german", "gender": "girl", "meaning": "Pearl.", "originNotes": "German short form of Margaret", "pronunciation": "GRE-tah", "popularity": "Balanced", "lengthCategory": "short", "styleScore": 27
+  },
+  {
+    "id": "de15", "name": "Anselm", "language": "german", "gender": "boy", "meaning": "God's helmet.", "originNotes": "Germanic origin, distinguished", "pronunciation": "AN-zelm", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 75
+  },
+  {
+    "id": "de16", "name": "Lieselotte", "language": "german", "gender": "girl", "meaning": "Combination of Liese (Elizabeth) and Charlotte.", "originNotes": "German compound name", "pronunciation": "LEE-zeh-lot-tuh", "popularity": "Unique Find", "lengthCategory": "long", "styleScore": 80
+  },
+  {
+    "id": "de17", "name": "Elias", "language": "german", "gender": "boy", "meaning": "Yahweh is God.", "originNotes": "Hebrew origin, popular in Germany", "pronunciation": "eh-LEE-ahs", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 29
+  },
+  {
+    "id": "de18", "name": "Johanna", "language": "german", "gender": "girl", "meaning": "God is gracious.", "originNotes": "Hebrew origin, feminine of Johannes", "pronunciation": "yo-HAH-nah", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 16
+  },
+  {
+    "id": "de19", "name": "Oskar", "language": "german", "gender": "boy", "meaning": "God's spear / deer-lover.", "originNotes": "Germanic/Irish origin", "pronunciation": "OS-kar", "popularity": "Classic", "lengthCategory": "short", "styleScore": 21
+  },
+  {
+    "id": "de20", "name": "Mathilda", "language": "german", "gender": "girl", "meaning": "Battle mighty.", "originNotes": "Germanic origin", "pronunciation": "mah-TIL-dah", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 26
+  },
+  {
+    "id": "de21", "name": "Frederik", "language": "german", "gender": "boy", "meaning": "Peaceful ruler.", "originNotes": "Germanic origin, royal connections", "pronunciation": "FRE-deh-rik", "popularity": "Classic", "lengthCategory": "long", "styleScore": 14
+  },
+  {
+    "id": "de22", "name": "Rosalie", "language": "german", "gender": "girl", "meaning": "Rose.", "originNotes": "Latin origin, increasingly popular", "pronunciation": "RO-za-lee", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 64
+  },
+  {
+    "id": "de23", "name": "Hugo", "language": "german", "gender": "boy", "meaning": "Mind, intellect.", "originNotes": "Germanic origin", "pronunciation": "HOO-go", "popularity": "Balanced", "lengthCategory": "short", "styleScore": 38
+  },
+  {
+    "id": "de24", "name": "Alma", "language": "german", "gender": "girl", "meaning": "Nourishing, kind; soul.", "originNotes": "Germanic or Latin/Spanish origin", "pronunciation": "AHL-mah", "popularity": "Balanced", "lengthCategory": "short", "styleScore": 50
+  },
+  {
+    "id": "it1", "name": "Leonardo", "language": "italian", "gender": "boy", "meaning": "Brave lion.", "originNotes": "Germanic roots, Italian Renaissance", "pronunciation": "leh-oh-NAR-doh", "popularity": "Top 100", "lengthCategory": "long", "styleScore": 20
+  },
+  {
+    "id": "it2", "name": "Sofia", "language": "italian", "gender": "girl", "meaning": "Wisdom.", "originNotes": "Greek origin, popular worldwide", "pronunciation": "so-FEE-ah", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 10
+  },
+  {
+    "id": "it3", "name": "Francesco", "language": "italian", "gender": "boy", "meaning": "Frenchman, free man.", "originNotes": "Latin origin, associated with St. Francis", "pronunciation": "fran-CHES-ko", "popularity": "Top 100", "lengthCategory": "long", "styleScore": 8
+  },
+  {
+    "id": "it4", "name": "Giulia", "language": "italian", "gender": "girl", "meaning": "Youthful.", "originNotes": "Latin origin, Italian form of Julia", "pronunciation": "JOO-lee-ah", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 5
+  },
+  {
+    "id": "it5", "name": "Lorenzo", "language": "italian", "gender": "boy", "meaning": "From Laurentum.", "originNotes": "Latin origin, romantic sound", "pronunciation": "loh-REN-tsoh", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 25
+  },
+  {
+    "id": "it6", "name": "Chiara", "language": "italian", "gender": "girl", "meaning": "Clear, bright.", "originNotes": "Italian form of Clara", "pronunciation": "kee-AH-rah", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 23
+  },
+  {
+    "id": "it7", "name": "Matteo", "language": "italian", "gender": "boy", "meaning": "Gift of God.", "originNotes": "Italian form of Matthew", "pronunciation": "mat-TEH-oh", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 18
+  },
+  {
+    "id": "it8", "name": "Beatrice", "language": "italian", "gender": "girl", "meaning": "She who brings happiness; voyager.", "originNotes": "Latin origin, Dante's muse", "pronunciation": "beh-ah-TREE-cheh", "popularity": "Classic", "lengthCategory": "long", "styleScore": 15
+  },
+  {
+    "id": "it9", "name": "Elio", "language": "italian", "gender": "boy", "meaning": "Sun.", "originNotes": "Italian/Spanish from Greek Helios", "pronunciation": "EH-lee-oh", "popularity": "Unique Find", "lengthCategory": "short", "styleScore": 70
+  },
+  {
+    "id": "it10", "name": "Allegra", "language": "italian", "gender": "girl", "meaning": "Joyful, lively.", "originNotes": "Italian word name, musical connection", "pronunciation": "ah-LEG-rah", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 85
+  },
+  {
+    "id": "it11", "name": "Marco", "language": "italian", "gender": "boy", "meaning": "Warlike.", "originNotes": "Latin origin, related to Mars", "pronunciation": "MAR-ko", "popularity": "Classic", "lengthCategory": "short", "styleScore": 13
+  },
+  {
+    "id": "it12", "name": "Alessia", "language": "italian", "gender": "girl", "meaning": "Defending warrior.", "originNotes": "Italian feminine form of Alexis", "pronunciation": "ah-LESS-ee-ah", "popularity": "Balanced", "lengthCategory": "medium", "styleScore": 44
+  },
+  {
+    "id": "it13", "name": "Riccardo", "language": "italian", "gender": "boy", "meaning": "Powerful ruler.", "originNotes": "Italian form of Richard (Germanic)", "pronunciation": "ree-KAR-doh", "popularity": "Classic", "lengthCategory": "medium", "styleScore": 17
+  },
+  {
+    "id": "it14", "name": "Ginevra", "language": "italian", "gender": "girl", "meaning": "White shadow, white wave.", "originNotes": "Italian form of Guinevere (Welsh)", "pronunciation": "jee-NEV-rah", "popularity": "Rising Trend", "lengthCategory": "medium", "styleScore": 50
+  },
+  {
+    "id": "it15", "name": "Vittorio", "language": "italian", "gender": "boy", "meaning": "Conqueror.", "originNotes": "Italian form of Victor (Latin)", "pronunciation": "veet-TOR-ee-oh", "popularity": "Classic", "lengthCategory": "long", "styleScore": 21
+  },
+  {
+    "id": "it16", "name": "Isabella", "language": "italian", "gender": "girl", "meaning": "Pledged to God.", "originNotes": "Hebrew origin, Italian/Spanish form of Elizabeth", "pronunciation": "ee-zah-BEL-lah", "popularity": "Classic", "lengthCategory": "long", "styleScore": 9
+  },
+  {
+    "id": "it17", "name": "Enzo", "language": "italian", "gender": "boy", "meaning": "Home ruler (short form of Lorenzo/Vincenzo).", "originNotes": "Italian short form, popular", "pronunciation": "EN-zoh", "popularity": "Rising Trend", "lengthCategory": "short", "styleScore": 55
+  },
+  {
+    "id": "it18", "name": "Cosima", "language": "italian", "gender": "girl", "meaning": "Order, decency.", "originNotes": "Italian feminine form of Cosmo (Greek)", "pronunciation": "KO-zee-mah", "popularity": "Unique Find", "lengthCategory": "medium", "styleScore": 88
+  },
+  {
+    "id": "es1", "name": "Mateo", "language": "spanish", "gender": "boy", "meaning": "Gift of God.", "originNotes": "Hebrew origin, popular Hispanic name", "pronunciation": "mah-TEH-oh", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 30
+  },
+  {
+    "id": "es2", "name": "Lucia", "language": "spanish", "gender": "girl", "meaning": "Light.", "originNotes": "Latin origin, classic and beautiful", "pronunciation": "loo-SEE-ah / LOO-thee-ah", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 20
+  },
+  {
+    "id": "es3", "name": "Santiago", "language": "spanish", "gender": "boy", "meaning": "Saint James.", "originNotes": "Hebrew/Spanish origin, patron saint of Spain", "pronunciation": "sahn-tee-AH-go", "popularity": "Top 100", "lengthCategory": "long", "styleScore": 12
+  },
+  {
+    "id": "es4", "name": "Valeria", "language": "spanish", "gender": "girl", "meaning": "Strength, health." , "originNotes": "Latin origin, popular in Spanish-speaking countries", "pronunciation": "vah-LEH-ree-ah", "popularity": "Top 100", "lengthCategory": "medium", "styleScore": 26
+  }
+]
+

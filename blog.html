@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>The Stork Name Drop - Blog</title>
+
+    <link rel="icon" href="assets/logo.png" type="image/png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Tailwind CSS Configuration
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Nunito Sans"', 'sans-serif'],
+                        serif: ['Georgia', 'serif'],
+                    },
+                    colors: {
+                        'stork-title': '#2C3E50',
+                        'stork-text': '#34495E',
+                        'stork-accent': '#1ABC9C',
+                        'stork-accent-hover': '#16A085',
+                        'soft-beige': '#F5F5DC',
+                        'dark-text': '#374151',
+                        'medium-gray': '#6B7280',
+                        'button-active': '#60A5FA',
+                        'button-active-hover': '#3B82F6',
+                        'button-inactive-hover-bg': '#F9FAFB',
+                        'button-inactive-hover-border': '#1F2937',
+                        'error-red': '#EF4444',
+                        'save-button': '#34D399',
+                        'save-button-hover': '#059669',
+                        'remove-button': '#F87171',
+                        'remove-button-hover': '#DC2626',
+                        'copy-button': '#9CA3AF',
+                        'copy-button-hover': '#4B5563',
+                        'accent-muted': '#64748b',
+                        'accent-muted-light': '#cbd5e1',
+                        'off-white': '#f8fafc',
+                        'indigo-100': '#e0e7ff',
+                        'indigo-700': '#4338ca',
+                        'amber-100': '#fef3c7',
+                        'amber-500': '#f59e0b'
+                    },
+                    animation: {
+                        'fade-in': 'fade-in 0.5s ease-out',
+                        'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'fade-in-down': 'fade-in-down 0.5s ease-out',
+                        'fade-out-up': 'fade-out-up 0.5s ease-out',
+                        'slide-in-from-left': 'slide-in-from-left 0.5s ease-out',
+                        'slide-out-to-right': 'slide-out-to-right 0.5s ease-out',
+                        'slide-in-from-right': 'slide-in-from-right 0.3s ease-out',
+                        'slide-out-to-left': 'slide-out-to-left 0.3s ease-out',
+                    },
+                    keyframes: {
+                        'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+                        'fade-in-down': { '0%': { opacity: '0', transform: 'translateY(-10px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                        'fade-out-up': { 'from': { opacity: '1', transform: 'translateY(0px)' }, 'to': { opacity: '0', transform: 'translateY(-10px)' } },
+                        'slide-in-from-left': { '0%': { transform: 'translateX(-100%)' }, '100%': { transform: 'translateX(0)' } },
+                        'slide-out-to-right': { 'from': { transform: 'translateX(0)' }, 'to': { transform: 'translateX(100%)' } },
+                        'slide-in-from-right': { '0%': { transform: 'translateX(100%)' }, '100%': { transform: 'translateX(0)' } },
+                        'slide-out-to-left': { 'from': { transform: 'translateX(0)' }, 'to': { transform: 'translateX(-100%)' } },
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* Basic styles */
+        .btn { @apply px-4 py-2 rounded-md transition duration-200 ease-in-out shadow; }
+        .btn-primary { @apply bg-stork-accent text-white hover:bg-stork-accent-hover font-semibold; }
+        .btn-secondary { @apply bg-gray-200 text-stork-text hover:bg-gray-300; }
+        .btn-feedback { @apply transform active:scale-95; }
+
+        /* Layout styles */
+        html, body { min-height: 100%; display: flex; flex-direction: column; }
+        body { flex-grow: 1; padding-top: 64px; /* Adjusted for fixed header height */ font-family: 'Nunito Sans', sans-serif; color: #34495E; }
+        main { flex-grow: 1; }
+
+        /* Specific styles for blog cards */
+        .blog-card {
+            @apply group block bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden w-full max-w-sm;
+        }
+        .blog-card-image {
+            @apply w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105; /* Added hover effect */
+        }
+        .blog-card-content {
+            @apply p-4;
+        }
+        /* UPDATED: Increased font size */
+        .blog-card-title {
+            @apply text-xl font-semibold mb-2 text-stork-title group-hover:text-stork-accent transition-colors; /* Changed text-lg to text-xl */
+        }
+        .blog-card-description {
+            @apply text-sm text-stork-text mb-3;
+        }
+        .blog-card-link {
+             @apply text-sm font-medium text-stork-accent group-hover:text-stork-accent-hover transition-colors;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+     var _iub = _iub || [];
+     _iub.csConfiguration = {"siteId":4012598,"cookiePolicyId":20858973,"lang":"en","storage":{"useSiteId":true}};
+    </script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/4012598.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
+</head>
+<body class="font-sans text-stork-text overflow-x-hidden bg-[url('assets/back.png')] bg-cover bg-center bg-no-repeat bg-fixed pt-16">
+
+    <header class="fixed top-0 left-0 right-0 z-50 py-3 px-4 md:px-6 bg-white/80 backdrop-blur-md shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" title="The Stork Name Drop Home" class="z-20">
+                <img src="assets/logo.png" alt="The Stork Name Drop Logo"
+                     class="h-12 w-12 object-contain"
+                     onerror="this.onerror=null; this.src='https://placehold.co/48x48/D1E8E2/34495E?text=Logo';">
+            </a>
+            <nav class="flex space-x-4 sm:space-x-6 items-center">
+                 <a href="index.html" class="text-sm sm:text-base text-stork-text hover:text-stork-accent transition duration-200 font-medium">Home</a>
+                 <a href="index.html#generator-controls" id="top-nav-generator-link" class="text-sm sm:text-base text-stork-text hover:text-stork-accent transition duration-200 font-medium">Generator</a>
+                 <a href="blog.html" class="text-sm sm:text-base text-stork-accent font-semibold transition duration-200">Blog</a>
+                 <a href="datasources.html" class="text-sm sm:text-base text-stork-text hover:text-stork-accent transition duration-200 font-medium">Data Sources</a>
+                 <a href="aboutus.html" class="text-sm sm:text-base text-stork-text hover:text-stork-accent transition duration-200 font-medium">About Us</a>
+             </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-8 animate-fade-in-down">
+
+        <div class="text-center mb-12">
+             <img src="assets/blog.png" alt="Blog Title"
+                  class="h-auto w-full max-w-md mx-auto mb-4"
+                  onerror="this.onerror=null; this.src='https://placehold.co/448x100/f8fafc/2C3E50?text=BLOG'; this.style.border='1px dashed #ccc';">
+             <p class="text-lg text-stork-text bg-off-white/90 backdrop-blur-sm p-4 rounded-lg inline-block">
+                 Explore articles on name meanings, trends, traditions, and more to help you find the perfect name.
+             </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
+
+            <a href="blog/middle.html" class="blog-card">
+                <img src="assets/middle.png" alt="Middle Names Tile"
+                     class="blog-card-image"
+                     onerror="this.onerror=null; this.src='https://placehold.co/300x192/cccccc/34495E?text=Middle+Names';">
+                <div class="blog-card-content">
+                    <h3 class="blog-card-title">Choosing Middle Names</h3>
+                    <p class="blog-card-description">Find the perfect middle name flow.</p>
+                    <span class="blog-card-link">Read More &rarr;</span>
+                </div>
+            </a>
+
+            <a href="blog/uniqueeng.html" class="blog-card">
+                <img src="assets/uniqueeng.png" alt="Unique English Names Tile"
+                     class="blog-card-image"
+                     onerror="this.onerror=null; this.src='https://placehold.co/300x192/cccccc/34495E?text=Unique+English';">
+                <div class="blog-card-content">
+                    <h3 class="blog-card-title">Unique English Names</h3>
+                    <p class="blog-card-description">Explore distinctive English baby names.</p>
+                    <span class="blog-card-link">Read More &rarr;</span>
+                </div>
+            </a>
+
+            <a href="blog/german2025.html" class="blog-card">
+                <img src="assets/german2025.png" alt="German Names 2025 Tile"
+                     class="blog-card-image"
+                     onerror="this.onerror=null; this.src='https://placehold.co/300x192/cccccc/34495E?text=German+2025';">
+                <div class="blog-card-content">
+                    <h3 class="blog-card-title">German Names 2025</h3>
+                    <p class="blog-card-description">See the latest in German baby names.</p>
+                    <span class="blog-card-link">Read More &rarr;</span>
+                </div>
+            </a>
+
+            <a href="blog/song.html" class="blog-card">
+                <img src="assets/song.png" alt="Names from Songs Tile"
+                     class="blog-card-image"
+                     onerror="this.onerror=null; this.src='https://placehold.co/300x192/cccccc/34495E?text=Song+Names';">
+                <div class="blog-card-content">
+                    <h3 class="blog-card-title">Names Inspired by Songs</h3>
+                    <p class="blog-card-description">Find names featured in popular music.</p>
+                    <span class="blog-card-link">Read More &rarr;</span>
+                </div>
+            </a>
+
+            <a href="blog/beatles.html" class="blog-card">
+                <img src="assets/beatles.png" alt="Beatles Names Tile"
+                     class="blog-card-image"
+                     onerror="this.onerror=null; this.src='https://placehold.co/300x192/cccccc/34495E?text=Beatles+Names';">
+                <div class="blog-card-content">
+                    <h3 class="blog-card-title">Beatles Baby Name Gold</h3>
+                    <p class="blog-card-description">A deep dive into names from Fab Four songs.</p>
+                    <span class="blog-card-link">Read More &rarr;</span>
+                </div>
+            </a>
+
+            </div> </main>
+
+    <footer class="bg-gray-100/80 backdrop-blur-sm text-center p-4 mt-auto text-sm text-gray-600 border-t">
+         © 2025 The Stork Name Drop. All rights reserved. | <a href="privacypolicy.html" class="hover:underline">Privacy Policy</a> | <a href="terms.html" class="hover:underline">Terms of Service</a>
+    </footer>
+
+</body>
+</html>

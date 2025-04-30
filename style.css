@@ -1,0 +1,302 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables for colors and design */
+:root {
+    --primary-color: theme('colors.indigo-700'); /* Blue from Tailwind */
+    --secondary-color: theme('colors.medium-gray'); /* Gray from Tailwind */
+    --accent-color: theme('colors.amber-500'); /* Yellow from Tailwind */
+    --text-color: theme('colors.dark-text'); /* Dark Gray from Tailwind */
+    --background-color: theme('colors.off-white'); /* Light Gray from Tailwind */
+    --font-family: theme('fontFamily.serif'); /* Use Tailwind's default serif */
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Basic reset and base styles */
+body {
+    font-family: var(--font-family); /* Use the Tailwind serif font */
+    background-color: var(--background-color); /* Use Tailwind's off-white */
+    color: var(--text-color); /* Use Tailwind's dark-text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    @apply overflow-x-hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    @apply font-bold; /* Use Tailwind's bold */
+    margin-bottom: 0.5em; /* Maintain custom margin */
+}
+
+h1 {
+    @apply text-4xl; /* Large text */
+    margin-bottom: 10px; /* Custom margin */
+}
+
+h2 {
+    @apply text-2xl; /* Medium text */
+    font-weight: normal; /* Custom weight */
+    margin-bottom: 20px; /* Custom margin */
+}
+
+h3 {
+    @apply text-xl; /* Slightly smaller text */
+}
+
+h4 {
+    @apply text-lg; /* Even smaller text */
+}
+
+p {
+    margin-bottom: 1em; /* Custom margin */
+}
+
+a {
+    color: var(--primary-color); /* Blue from Tailwind */
+    text-decoration: none; /* No underline by default */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a:hover {
+    color: var(--accent-color); /* Yellow from Tailwind on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.landing-container {
+    text-align: center;
+    color: white;
+}
+
+.logo-container {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 0; /* Removes border radius to make it a square */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Layout */
+main {
+    @apply max-w-3xl mx-auto bg-off-white p-8 md:p-12 rounded-lg border-2 border-dark-text shadow-md my-12;
+}
+.btn {
+    @apply font-medium rounded-md px-4 py-2;
+}
+.btn-primary {
+    @apply bg-button-active text-off-white hover:bg-button-active-hover;
+
+.content {
+    padding: 20px;
+}
+
+/* Grid for blog teasers */
+.blog-teaser-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Blog Teaser Styling */
+.blog-teaser {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-feedback {  @apply transition-all duration-500 ease-in-out; }
+#mobile-menu {
+    transition: transform 0.3s ease-in-out;
+}
+/* Smooth transition for transform */
+#mobile-menu.open {
+    transform: translateX(0); /* Open the menu */
+    box-shadow: -10px 0px 20px rgba(0, 0, 0, 0.25); /* Add a shadow when open */
+}
+
+.blog-teaser:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px var(--shadow-color);
+}
+
+/* tags*/
+.tag {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px; /* Rounded corners */
+    margin: 2px;
+    display: inline-block;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.tag:hover {
+    background-color: #c0c0c0;
+}
+
+/*featured post*/
+.featured-post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    border-radius: 10px;
+}
+
+.featured-post h2 {
+    color: var(--text-color);
+}/* blog post styling */
+.featured-post p {
+    color: #666;
+}
+/*blog post*/
+.blog-post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-shadow: 0 1px 3px var(--shadow-color);
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+.blog-post:hover {
+    box-shadow: 0 4px 8px var(--shadow-color);
+    cursor: pointer;
+}
+
+
+.storks-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+
+#main-header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+}
+/* Navbar Styling */
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 1rem;
+}
+
+/* Showcase Area */
+#showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/stork.png') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#showcase h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#showcase p {
+    font-size: 1.2em;
+}
+
+/*Boxes*/
+#boxes {
+    margin-top: 20px;
+}
+
+/* Footer Styling */
+.blog-image { width: 100px; height: auto; }
+
+/* Dark Color Theme */
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Ad Placeholder */
+.ad-placeholder {
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;}
+.latest-posts {
+    padding: 20px;
+    border-radius: 8px;
+}
+/* Latest Posts */
+.latest-posts a {    color: var(--text-color);
+}
+.latest-posts a:hover{
+    color: #6B7280;
+
+}
+
+/* Add some space on the sides for all the content */
+.container, .ad-placeholder, .latest-posts, .blog-teaser {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.blog-image { width: 100px; height: auto; }
+/* Dark Color Theme */
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: white;
+    margin-top: 10px;
+}
+/* Ad Placeholder */
+    .ad-placeholder {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+/* Latest Posts */
+.latest-posts a {    color: var(--text-color);
+}
+.latest-posts a:hover{
+    color: #6B7280;
+}
