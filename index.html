@@ -1,82 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>The Stork Name Drop - Baby Name Generator & Ideas</title>
+  <meta name="description" content="Discover unique baby names with The Stork Name Drop. Explore curated lists, modern name ideas, and creative combinations for your newborn.">
+
+  <meta property="og:title" content="The Stork Name Drop - Baby Name Generator & Ideas">
+  <meta property="og:description" content="Explore modern baby names with ease. Creative, curated, and ready to inspire.">
+  <meta property="og:image" content="https://thestorknamedrop.com/assets/logo.png">
+  <meta property="og:url" content="https://thestorknamedrop.com/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Nunito Sans"', 'sans-serif'],
+            serif: ['Georgia', 'serif'],
+          },
+          colors: {
+            'stork-title': '#2C3E50',
+            'stork-text': '#34495E',
+            'stork-accent': '#1ABC9C',
+            'stork-accent-hover': '#16A085',
+            'soft-beige': '#F5F5DC',
+            'dark-text': '#374151',
+            'medium-gray': '#6B7280',
+            'button-active': '#60A5FA',
+            'button-active-hover': '#3B82F6',
+            'button-inactive-hover-bg': '#F9FAFB',
+            'button-inactive-hover-border': '#1F2937',
+            'error-red': '#EF4444',
+            'save-button': '#34D399',
+            'save-button-hover': '#059669',
+            'remove-button': '#F87171',
+            'remove-button-hover': '#DC2626',
+            'copy-button': '#9CA3AF',
+            'copy-button-hover': '#4B5563',
+            'accent-muted': '#64748b',
+            'accent-muted-light': '#cbd5e1'
+          },
+        },
+      },
+    };
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Stork Name Drop",
+      "url": "https://thestorknamedrop.com",
+      "logo": "https://thestorknamedrop.com/assets/logo.png"
+    }
+  </script>
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#" class="ripple-effect">Home</a></li>
-            <li><a href="#" class="ripple-effect">About</a></li>
-            <li><a href="#" class="ripple-effect">Blog</a></li>
-            <li><a href="#" class="ripple-effect">Contact</a></li>
-        </ul>
-    </nav>
+<body class="bg-soft-beige font-sans text-dark-text">
+  <main class="max-w-4xl mx-auto p-4">
+    <header>
+      <h1 class="text-3xl font-bold text-stork-title mb-2">Discover Unique Baby Names with The Stork Name Drop</h1>
+      <p class="text-medium-gray">Your creative tool for baby name ideas, inspiration, and combinations.</p>
+    </header>
 
-    <main>
-        <section id="showcase">
-            <h1>Welcome to My Blog</h1>
-            <p>Discover amazing stories and insights.</p>
-        </section>
+    <!-- Your main content goes here -->
 
-        <section class="dynamic-section featured-post ripple-effect">
-            <h2>Featured Post</h2>
-            <img src="/assets/stork.png" alt="stork">
-            <p>This is the content of the featured blog post. You can include a brief summary or an excerpt here.</p>
-            <div class="tags">
-              <a href="#" class="tag ripple-effect dynamic-section">Technology</a>
-              <a href="#" class="tag ripple-effect dynamic-section">Innovation</a>
-              <a href="#" class="tag ripple-effect dynamic-section">Future</a>
-            </div>
-        </section>
-
-        <section>
-            <h2>Latest Posts</h2>
-            <div class="blog-teaser-container">
-              <div class="blog-teaser ripple-effect">
-                  <h3>Post Title 1</h3>
-                  <img src="/assets/stork.png" alt="stork">
-                  <p>This is a brief description of the blog post. Include keywords or interesting snippets here.</p>
-                  <div class="tags">
-                    <a href="#" class="tag ripple-effect dynamic-section">Web Development</a>
-                    <a href="#" class="tag ripple-effect dynamic-section">JavaScript</a>
-                  </div>
-              </div>
-              <div class="blog-teaser ripple-effect">
-                <h3>Post Title 2</h3>
-                <img src="/assets/stork.png" alt="stork">
-                <p>This is a brief description of the blog post. Include keywords or interesting snippets here.</p>
-                <div class="tags">
-                    <a href="#" class="tag ripple-effect dynamic-section">Web Development</a>
-                    <a href="#" class="tag ripple-effect dynamic-section">JavaScript</a>
-                  </div>
-            </div>
-            <div class="blog-teaser ripple-effect">
-              <h3>Post Title 3</h3>
-              <img src="/assets/stork.png" alt="stork">
-              <p>This is a brief description of the blog post. Include keywords or interesting snippets here.</p>
-              <div class="tags">
-                    <a href="#" class="tag ripple-effect dynamic-section">Web Development</a>
-                    <a href="#" class="tag ripple-effect dynamic-section">JavaScript</a>
-                  </div>
-          </div>
-            </div>
-        </section>
-
-        <section>
-            <h2>Other Sections</h2>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 My Blog</p>
+    <footer class="mt-10 border-t pt-4 text-sm text-medium-gray">
+      &copy; 2025 The Stork Name Drop. All rights reserved.
     </footer>
-    <audio id="clickSound" src="audio/click.wav"></audio>
-    <audio id="hoverSound" src="audio/hover.wav"></audio>
-    <audio id="morphingSound" src="audio/morphing.wav"></audio>
-    <script src="script.js"></script>
+  </main>
 </body>
 </html>
